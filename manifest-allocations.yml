@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 512M
   routes:
-  - route: allocations-afshaan-vema.apps.evans.pal.pivotal.io
+  - route: allocations-afshaan-vema.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-afshaan.apps.evans.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-afshaan-vema.cfapps.io
   services:
   - tracker-allocations-database

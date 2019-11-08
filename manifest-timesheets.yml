@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 512M
   routes:
-  - route: timesheets-afshaan-vema.apps.evans.pal.pivotal.io
+  - route: timesheets-afshaan-vema.cfapps.io
   path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-afshaan.apps.evans.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-afshaan-vema.cfapps.io
   services:
   - tracker-timesheets-database
